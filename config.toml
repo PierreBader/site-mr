@@ -1,12 +1,10 @@
 baseurl = "https://example.org"
 title = "Marie Raconte"
+themesDir = "./themes"
 theme = "hugo-universal-theme"
-style = "violet"
 languageCode = "fr-fr"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "fr"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -41,7 +39,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
+    author = "Marie"
     defaultKeywords = ["devows", "hugo", "go"]
     defaultDescription = "Site template made by devcows using hugo"
 
